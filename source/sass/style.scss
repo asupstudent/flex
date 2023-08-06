@@ -1,3 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
 body {
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #151c22;
+  min-width: 1200px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+}
+
+.site-navigation-item {
+  padding: 25px 0;
+}
+
+.main-header-logo {
+  padding: 25px 0 20px;
+  margin: auto;
+}
+
+.user-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+}
+
+.user-navigation-item {
+  padding: 20px 0;
+}
+
+.main-header-nav-wrapper {
+  display: flex;
+  justify-content: flex-start;
 }
