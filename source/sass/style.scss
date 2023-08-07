@@ -222,3 +222,41 @@ a {
 .social-item {
   padding: 20px 15px;
 }
+
+// Внутренняя страница
+
+.catalog-header-wrapper {
+  background-color: #f1f2f4;
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+
+.breadcrumbs {
+  display: flex;
+  gap: 0 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-filters {
+  text-align: right;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.catalog-list-compact {
+  gap: 52px 66px;
+}
+
+.catalog-item-compact {
+  width: 243px;
+}
+
+.catalog-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 155px;
+}
