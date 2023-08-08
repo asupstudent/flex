@@ -1,171 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Card «Overalls» | «Nîmes»</title>
-</head>
-<body>
-    <header>
-        <nav class="header__content _container">
-            <ul class="menu-main__list">
-                <li class="menu-main__item"><a class="menu-main__link" href="#">Woman</a></li>
-                <li class="menu-main__item"><a class="menu-main__link" href="#">Man</a></li>
-                <li class="menu-main__item"><a class="menu-main__link" href="#">New</a></li>
+    <title>«Nîmes» | Denim Clothing & Outfits - Product page</title>
+    <!-- linthtml-disable -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+    </style>
+    <!-- linthtml-enable -->
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-header-nav">
+        <div class="container">
+          <div class="main-header-nav-wrapper">
+            <ul class="site-navigation">
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">Woman</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">Man</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">New</a>
+              </li>
             </ul>
-
-            <a class="menu-logo__link" href="index.html">
-                <img class="menu-logo__img" src="img/case_01/svg/logo-header.svg" width="73" height="19" alt="logo">
+            <a class="main-header-logo" href="index.html">
+              <img src="img/case_01/svg/logo-header.svg" width="73" height="19" alt="logo">
             </a>
-
-            <ul class="menu-user__list">
-                <li class="menu-user__item">
-                    <a class="menu-user__link" href="#"><img src="img/case_01/svg/loupe.svg" width="20" height="20" alt="search"></a>
-                </li>
-                <li class="menu-user__item">
-                    <a class="menu-user__link" href="#"><img src="img/case_01/svg/cart.svg" width="22" height="20" alt="cart"></a>
-                </li>
+            <ul class="user-navigation">
+              <li class="user-navigation-item">
+                <a class="link-item" href="#"><img src="img/case_01/svg/loupe.svg" width="20" height="20" alt="search"></a>
+              </li>
+              <li class="user-navigation-item">
+                <a class="link-item" href="#"><img src="img/case_01/svg/cart.svg" width="22" height="20" alt="cart"></a>
+              </li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="card">
-            <h1 class="page-header hidden">Card «Overalls»</h1>
-            <div class="card__content _container">
-                <div class="card__images">
-                    <img class="card__image" src="img/case_01/cart-main.jpg" width="400" height="523" alt="Overalls main photo">
-                    <ul class="card__small-images">
-                        <li class="preview__item">
-                            <img class="preview__image" src="img/case_01/cart-small-1.jpg" width="85" height="113" alt="Overalls preview photo">
-                        </li>
-                        <li class="preview__item">
-                            <img class="preview__image" src="img/case_01/cart-small-2.jpg" width="85" height="113" alt="Overalls preview photo">
-                        </li>
-                        <li class="preview__item">
-                            <img class="preview__image" src="img/case_01/cart-small-3.jpg" width="85" height="113" alt="Overalls preview photo">
-                        </li>
-                        <li class="preview__item">
-                            <img class="preview__image" src="img/case_01/cart-small-4.jpg" width="85" height="113" alt="Overalls preview photo">
-                        </li>
-                    </ul>
-                    <button class="slider__left-button" type="button">
-                        <span>Previous</span>
-                    </button>
-                    <button class="slider__right-button" type="button">
-                        <span>Next</span>
-                    </button>
-                </div>
-
-                <div class="card__options">
-                    <h2 class="card__title">Overalls</h2>
-                    <p class="card__desc">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
-
-                    <form class="form__order" action="#" method="POST">
-                        <fieldset class="form__color">
-                            <legend>Color</legend>
-                            <input type="radio" id="color-lightblue" name="field__color" checked>
-                            <label class="color-lightblue label-hidden checked" for="color-lightblue">Lightblue</label>
-                            <input type="radio" id="color-blue" name="field__color">
-                            <label class="color-blue label-hidden" for="color-blue">Blue</label>
-                            <input type="radio" id="color-gray" name="field__color">
-                            <label class="color-gray label-hidden" for="color-gray">Gray</label>
-                        </fieldset>
-                        <fieldset class="form__size">
-                            <legend>Size</legend>
-                            <input type="radio" id="size-xs" name="field__size">
-                            <label for="size-xs">XS</label>
-                            <input type="radio" id="size-s" name="field__size" checked>
-                            <label class="checked" for="size-s">S</label>
-                            <input type="radio" id="size-m" name="field__size">
-                            <label for="size-m">M</label>
-                            <input type="radio" id="size-l" name="field__size">
-                            <label for="size-l">L</label>
-                            <input type="radio" id="size-xl" name="field__size">
-                            <label for="size-xl">XL</label>
-                        </fieldset>
-                        <p class="form__price">$160</p>
-                        <button class="form__button button" type="button">Add to cart</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <section class="similar _container">
-            <header class="section__header">
-                <h2 class="section__title">You may also like</h2>
-                <a class="section__link" href="catalog.html">View all</a>
-            </header>
-            <ul class="similar__list">
-                <li class="similar__item">
-                    <a class="similar__link" href="card.html">
-                        <h3 class="similar__title">Overalls</h3>
-                        <img class="similar__image" src="img/case_01/catalog-overalls-model1.jpg" width="270" height="349" alt="overalls">
-                        <p class="similar__price">$140</p>
-                    </a>
-                </li>
-                <li class="similar__item">
-                    <a class="similar__link" href="card.html">
-                        <h3 class="similar__title">Overalls</h3>
-                        <img class="similar__image" src="img/case_01/catalog-bottom-overalls.jpg" width="270" height="349" alt="overalls">
-                        <p class="similar__price">$110</p>
-                    </a>
-                </li>
-                <li class="similar__item">
-                    <a class="similar__link" href="card.html">
-                        <h3 class="similar__title">Jacket</h3>
-                        <img class="similar__image" src="img/case_01/catalog-jacket-model3.jpg" width="270" height="349" alt="jacket">
-                        <p class="similar__price">$70</p>
-                    </a>
-                </li>
-                <li class="similar__item">
-                    <a class="similar__link" href="card.html">
-                        <h3 class="similar__title">Jacket</h3>
-                        <img class="similar__image" src="img/case_01/catalog-jacket-model4.jpg" width="270" height="349" alt="jacket">
-                        <p class="similar__price">$60</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer__content _container">
-            <a class="footer__link" href="#">
-                <img class="footer__img" src="img/case_01/svg/logo-footer.svg" width="73" height="19" alt="logo">
-            </a>
-            <ul class="footer__menu">
-                <li class="footer__item"><a class="footer__link" href="#">Shop</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Delivery</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Service</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Sitemap</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">Contacts</a></li>
-            </ul>
-            <ul class="footer__social">
-                <li class="footer__item">
-                    <a class="footer__link" href="#">
-                        <img class="footer__img" src="img/case_01/svg/facebook.svg" width="12" height="20" alt="facebook">
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="#">
-                        <img class="footer__img" src="img/case_01/svg/instagram.svg" width="20" height="20" alt="instagram">
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="#">
-                        <img class="footer__img" src="img/case_01/svg/pinterest.svg" width="21" height="21" alt="pinterest">
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="#">
-                        <img class="footer__img" src="img/case_01/svg/twitter.svg" width="22" height="18" alt="twitter">
-                    </a>
-                </li>
-            </ul>
+          </div>
         </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Product page Overalls</h1>
+      <section class="card">
+        <h2 class="card-description-header">Overalls</h2>
+      </section>
+      <section class="simalar">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">You may also like</h2>
+            <a class="show-more" href="catalog.html">View all</a>
+          </header>
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <img src="img/case_01/catalog-overalls-model1.jpg" width="270" height="349" alt="Overalls">
+              <h3 class="catalog-item-title">
+                <a class="catalog-item-link" href="#">Overalls</a>
+              </h3>
+              <p class="catalog-item-price">$140</p>
+            </li>
+            <li class="catalog-item">
+              <img src="img/case_01/catalog-bottom-overalls.jpg" width="270" height="349" alt="Overalls">
+              <h3 class="catalog-item-title">
+                <a class="catalog-item-link" href="#">Overalls</a>
+              </h3>
+              <p class="catalog-item-price">$110</p>
+            </li>
+            <li class="catalog-item">
+              <img src="img/case_01/catalog-jacket-model3.jpg" width="270" height="349" alt="Jacket">
+              <h3 class="catalog-item-title">
+                <a class="catalog-item-link" href="#">Jacket</a>
+              </h3>
+              <p class="catalog-item-price">$70</p>
+            </li>
+            <li class="catalog-item">
+              <img src="img/case_01/catalog-jacket-model4.jpg" width="270" height="349" alt="Jacket">
+              <h3 class="catalog-item-title">
+                <a class="catalog-item-link" href="#">Jacket</a>
+              </h3>
+              <p class="catalog-item-price">$60</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer-wrapper">
+          <a class="main-footer-logo" href="#">
+            <img src="img/case_01/svg/logo-footer.svg" width="73" height="19" alt="Логотип сайта">
+          </a>
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item">
+              <a class="footer-navigation-link" href="#">Shop</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-navigation-link" href="#">Delivery</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-navigation-link" href="#">Service</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-navigation-link" href="#">Sitemap</a>
+            </li>
+            <li class="footer-navigation-item">
+              <a class="footer-navigation-link" href="#">Contacts</a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li class="social-item">
+              <a href="#">
+                <img src="img/case_01/svg/facebook.svg" width="12" height="20" alt="facebook">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <img src="img/case_01/svg/instagram.svg" width="20" height="20" alt="instagram">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <img src="img/case_01/svg/pinterest.svg" width="21" height="21" alt="pinterest">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <img src="img/case_01/svg/twitter.svg" width="22" height="18" alt="twitter">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
