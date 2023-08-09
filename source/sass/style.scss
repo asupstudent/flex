@@ -263,6 +263,41 @@ a {
 
 // Карточка товара
 
+.card {
+  // background-image: linear-gradient(to right, #ffffff, #f1f2f4 50%);
+  margin-top: 50px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-photos-column {
+  width: 600px;
+  background-color: #ffffff;
+}
+
+.card-description-column {
+  width: 570px;
+  color: #151c22;
+}
+
+.card-photo-full {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-photo-preview {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px 20px;
+
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
 .simalar {
   padding-top: 90px;
   padding-bottom: 90px;
