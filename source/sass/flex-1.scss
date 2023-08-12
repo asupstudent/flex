@@ -17,17 +17,10 @@
 }
 
 .f1-site-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 0 35px;
   margin: 0;
   padding: 0;
@@ -45,17 +38,10 @@
 }
 
 .f1-user-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 0 35px;
   margin: 0;
   padding: 0;
@@ -72,12 +58,8 @@
 }
 
 .f1-main-header-nav-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .f1-promo {
@@ -85,12 +67,8 @@
 }
 
 .f1-promo-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .f1-promo-text-column {
@@ -128,24 +106,15 @@
 }
 
 .f1-section-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 35px;
 }
 
 .f1-catalog-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 25px 30px;
   margin: 0;
   padding: 0;
@@ -167,16 +136,9 @@
 }
 
 .f1-new-collection-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .f1-new-collection-text-column {
@@ -200,28 +162,16 @@
 }
 
 .f1-main-footer-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .f1-footer-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 525px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: auto;
   padding: 0;
   list-style: none;
@@ -235,12 +185,8 @@
 }
 
 .f1-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 240px;
   margin: auto;
   padding: 0;
@@ -260,6 +206,8 @@
   padding: 20px 15px;
 }
 
+// Внутренняя страница
+
 .f1-catalog-header-wrapper {
   background-color: #f1f2f4;
   padding-top: 70px;
@@ -267,8 +215,6 @@
 }
 
 .f1-breadcrumbs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 0 30px;
   margin: 0;
@@ -292,30 +238,21 @@
 }
 
 .f1-catalog-slider-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 155px;
 }
+
+// Карточка товара
 
 .f1-card {
   margin-top: 50px;
 }
 
 .f1-card-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .f1-card-photos-column {
@@ -334,13 +271,10 @@
 }
 
 .f1-card-photo-preview {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   gap: 20px 20px;
+
   list-style: none;
   padding: 0;
   margin: 20px 0 0 0;
@@ -349,27 +283,4 @@
 .f1-simalar {
   padding-top: 90px;
   padding-bottom: 90px;
-}
-
-.f2-page-body {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
